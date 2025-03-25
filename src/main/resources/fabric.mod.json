@@ -1,41 +1,35 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "moneysr",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Money SR",
+	"description": "awawawa",
 	"authors": [
-		"Me!"
+		"Just_S"
 	],
-	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
-	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/moneysr/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"net.just_s.SRMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"net.just_s.SRModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"moneysr.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "moneysr.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.16.10",
-		"minecraft": "~1.21.4",
-		"java": ">=21",
+		"fabricloader": ">=0.14.10",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
