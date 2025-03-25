@@ -7,7 +7,9 @@
 	"authors": [
 		"Just_S"
 	],
-	"contact": {},
+	"contact": {
+		"homepage": "https://github.com/JustS-js/moneysr"
+	},
 	"license": "MIT",
 	"icon": "assets/moneysr/icon.png",
 	"environment": "*",

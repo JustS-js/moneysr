@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "moneysr:summcoin"
+    }
+  ],
+  "result": {
+    "item": "moneysr:kredocoin",
+    "count": 9
+  }
+}
